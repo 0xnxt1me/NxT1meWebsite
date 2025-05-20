@@ -8,15 +8,6 @@ type NavLinkProps = {
   children: React.ReactNode;
 };
 
-const NavLink: React.FC<NavLinkProps> = ({ href, children }) => (
-  <a 
-    href={href}
-    className="text-slate-700 dark:text-slate-200 px-3 py-2 text-sm font-medium hover:text-green-600 dark:hover:text-green-400 transition-colors duration-200"
-  >
-    {children}
-  </a>
-);
-
 const SocialLink: React.FC<NavLinkProps & { ariaLabel: string }> = ({ href, children, ariaLabel }) => {
   const isMailto = href.startsWith('mailto:');
 
@@ -50,7 +41,12 @@ const Navbar: React.FC = () => {
         </div>
         
         <div className="hidden md:flex items-center space-x-2">
-          <NavLink href="/about">About</NavLink>
+          <Link 
+            to="/about" 
+            className="text-slate-700 dark:text-slate-200 px-3 py-2 text-sm font-medium hover:text-green-600 dark:hover:text-green-400 transition-colors duration-200"
+          >
+            About
+          </Link>
           <div className="h-4 w-px bg-slate-300 dark:bg-slate-700 mx-2"></div>
           <SocialLink href="https://github.com/goncalocsousa1" ariaLabel="GitHub profile">
             <Github className="h-5 w-5" />
