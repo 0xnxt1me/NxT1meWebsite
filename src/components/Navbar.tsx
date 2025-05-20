@@ -50,7 +50,7 @@ const Navbar: React.FC = () => {
         </div>
         
         <div className="hidden md:flex items-center space-x-2">
-          <NavLink href="https://nxt1me.onrender.com/about">About</NavLink>
+          <NavLink href="/about">About</NavLink>
           <div className="h-4 w-px bg-slate-300 dark:bg-slate-700 mx-2"></div>
           <SocialLink href="https://github.com/goncalocsousa1" ariaLabel="GitHub profile">
             <Github className="h-5 w-5" />
