@@ -14,7 +14,7 @@ const Footer: React.FC = () => {
           
           <div className="flex space-x-4">
             <a 
-              href="https://github.com/goncalocsousa1" 
+              href="https://github.com/0xnxt1me" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-slate-600 dark:text-slate-400 hover:text-green-600 dark:hover:text-green-400 transition-colors duration-200"
@@ -27,7 +27,7 @@ const Footer: React.FC = () => {
               target="_blank" 
               rel="noopener noreferrer"
               className="text-slate-600 dark:text-slate-400 hover:text-green-600 dark:hover:text-green-400 transition-colors duration-200"
-              aria-label="Twitter profile"
+              aria-label="X profile"
             >
               <Twitter className="h-5 w-5" />
             </a>

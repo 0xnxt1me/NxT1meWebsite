@@ -51,7 +51,7 @@ const Navbar: React.FC = () => {
             About
           </Link>
           <div className="h-4 w-px bg-slate-300 dark:bg-slate-700 mx-2"></div>
-          <SocialLink href="https://github.com/goncalocsousa1" ariaLabel="GitHub profile">
+          <SocialLink href="https://github.com/0xnxt1me" ariaLabel="GitHub profile">
             <Github className="h-5 w-5" />
           </SocialLink>
           <SocialLink href="https://x.com/NxT1me1337" ariaLabel="Twitter profile">
