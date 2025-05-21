@@ -1,3 +1,4 @@
+# Anonymous Reporting Portal
 This was a project of the Curricular Unit Projeto III of the course Informatics Engineering at the School of Technology and Management (ESTG-IPVC). This project was realized by me and my colleague José Cruz. 
 
 ---
@@ -19,11 +20,11 @@ The **Anonymous Reporting Portal** is a secure web platform developed to facilit
 The system follows a **microservices architecture** to ensure modularity and scalability. Each domain, users, authentication, complaints, metadata processing, is encapsulated in its own container and orchestrated using Docker.
 
 ### High-Level Architecture
-![High Level Architecture](/markdown/AnonymousReportingPortal/High-Level-Architecture.png)
+![High Level Architecture](/projects/AnonymousReportingPortal/High-Level-Architecture.png)
 						*Actual image from project slides/report*
 ### Architecture Diagram
 
-![Architecture Diagram](/markdown/AnonymousReportingPortal/architecture-diagram.png)
+![Architecture Diagram](/projects/AnonymousReportingPortal/architecture-diagram.png)
 					*Client ⇌ API Gateway ⇌ Microservices ⇌ Supabase*
 
 ---
@@ -33,11 +34,11 @@ The system follows a **microservices architecture** to ensure modularity and sca
 One of the core privacy safeguards is the **automatic removal of metadata** from uploaded files, including PDFs and images. This ensures the **anonymity of the denunciator** by cleaning hidden file properties such as author, device, or location.
 ###  Metadata Before Removal
 
-![Metadata Before Removal](/markdown/AnonymousReportingPortal/Metadata_before.png)
+![Metadata Before Removal](/projects/AnonymousReportingPortal/Metadata_before.png)
 				*Example showing sensitive fields like "Author", "Device", etc.*
 ### Metadata After Removal
 
-![Metadata After Removal](/markdown/AnonymousReportingPortal/Metadata-After-Removal.png)
+![Metadata After Removal](/projects/AnonymousReportingPortal/Metadata-After-Removal.png)
 					*All identifiable metadata is stripped automatically.*
 				
 This is handled server-side using tools like **ExifTool**, **Sharp**, and **pdf-lib**, seamlessly integrated into the backend file processing microservice.
@@ -49,19 +50,19 @@ This is handled server-side using tools like **ExifTool**, **Sharp**, and **pdf-
 
 ### Landing & Company Pages
 
-![Landing Pages](/markdown/AnonymousReportingPortal/LandingPage.png)
+![Landing Pages](/projects/AnonymousReportingPortal/LandingPage.png)
 						*Home interface for anonymous users*
 
-![Company Pages](/markdown/AnonymousReportingPortal/CompanyPage.png)
+![Company Pages](/projects/AnonymousReportingPortal/CompanyPage.png)
 						*Search and browse registered companies*
 
 *Note: All companies shown in the demonstration images are fictional and used for illustrative purposes only.*
 ### Complaint & Denunciation Interfaces
 
-![ComplaintPage](/markdown/AnonymousReportingPortal/ComplaintPage.png)
+![ComplaintPage](/projects/AnonymousReportingPortal/ComplaintPage.png)
 						*Form for anonymous complaint submission*
 
-![Compalint Company Page](/markdown/AnonymousReportingPortal/ComplaintCompanyPage.png)
+![Compalint Company Page](/projects/AnonymousReportingPortal/ComplaintCompanyPage.png)
 						*User and company can view and respond to entries*
 
 ---

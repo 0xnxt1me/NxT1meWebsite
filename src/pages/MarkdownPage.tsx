@@ -10,7 +10,7 @@ const MarkdownPage: React.FC = () => {
   const [content, setContent] = useState<string>('Loading...');
 
   useEffect(() => {
-    fetch(`/markdown/${slug}.md`)
+    fetch(`/projects/${slug}.md`)
       .then((res) => {
         if (!res.ok) throw new Error('Markdown not found');
         return res.text();

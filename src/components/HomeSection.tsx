@@ -106,14 +106,14 @@ const HomeSection: React.FC = () => {
             title="Next.js CVE-2025-29927"
             description="Proof of concept for CVE-2025-29927 vulnerability in Next.js."
             tech={['Next.js', 'JavaScript', 'TypeScript', 'Middleware bypass']}
-            to="markdown/CVE-2025-29927"
+            to="projects/CVE-2025-29927"
             icon={<Shield className="h-6 w-6" />}
           />
           <ProjectCard
             title="Anonymous Reporting Portal"
-            description="Secure web platform developed to facilitate **anonymous complaint submissions** related to legal, ethical, and consumer issues."
+            description="Secure web platform developed to facilitate anonymous complaint submissions related to legal, ethical, and consumer issues."
             tech={['Next.js', 'TypeScript', 'Supabase', 'Express.js ','Docker']}
-            to="markdown/Anonymous-Reporting-Portal"
+            to="projects/Anonymous-Reporting-Portal"
             icon={<Code className="h-6 w-6" />}
           />
         </div>
