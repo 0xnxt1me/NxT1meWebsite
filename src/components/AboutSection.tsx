@@ -18,8 +18,7 @@ const AboutSection: React.FC = () => {
               About Me
             </h2>
           <p className="max-w-2xl mx-auto text-slate-700 dark:text-slate-300">
-          I'm Gonçalo Sousa, also known as NxT1me. I’m currently pursuing a degree in Computer Engineering at the School of Technology and Management (ESTG), Polytechnic Institute of Viana do Castelo. Driven by a deep passion for technology and cybersecurity, I’m dedicated to expanding my knowledge and skills to make a meaningful impact in the digital world.
-        </p>
+          Hi, I’m Gonçalo Sousa, but online you might know me as NxT1me. I’m currently studying Computer Engineering at the School of Technology and Management (ESTG), Polytechnic Institute of Viana do Castelo.      </p>
           </div>
         </div>
 
@@ -29,10 +28,12 @@ const AboutSection: React.FC = () => {
           </h3>
           <div className="space-y-4 text-slate-700 dark:text-slate-300">
            <p>
-            My journey in cybersecurity began with a strong curiosity about how systems function and how to protect them effectively. As detailed on my LinkedIn, I previously worked in a Network & Security Operations Center (NSOC), where I gained valuable hands-on experience monitoring and responding to security incidents. Following this practical experience, I decided to further my education and enrolled in a degree program in Computer Engineering.
+            My journey in cybersecurity began with a strong curiosity about how systems function and how to protect them effectively. As detailed on my LinkedIn, I previously worked in a Network & Security Operations Center (NSOC), where I gained valuable hands-on experience monitoring and responding to security incidents.  During this experience, I decided to further my education and enrolled in a degree program in Computer Engineering.
           </p>
           <p>
-          I have also conducted research and analysis of HTTP security headers at several European universities. During this work, I developed scripts and supported the testing of tools for a proof-of-concept security scanner, gaining valuable practical experience in cybersecurity research. Currently, I am focused on researching Security Infrastructure for the FIWARE Platform and IoT devices, where I work on securing the platform, its microservices, and connected IoT devices by implementing robust authentication and authorization mechanisms, data encryption, traffic monitoring, and protection against cyberattacks.
+            I have also conducted research and analysis of HTTP security headers at several European universities. During this work, I developed scripts and supported the testing of tools for a proof-of-concept security scanner, gaining valuable practical experience in cybersecurity research. 
+            I am currently conducting research with a scholarship funded by the FCT (Foundation for Science and Technology), focused on identifying known vulnerabilities in the FIWARE platform and developing effective mitigation strategies.
+            The project aims to enhance the security of the FIWARE platform, its microservices, and connected IoT devices by ensuring confidentiality, integrity, and availability of data. It involves implementing strong authentication and authorization, data encryption, traffic monitoring, and measures to protect against cyberattacks, including network isolation and secure communication protocols.
           </p>
           </div>
         </div>
