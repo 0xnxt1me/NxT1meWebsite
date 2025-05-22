@@ -1,5 +1,7 @@
 # Anonymous Reporting Portal
-This was a project of the Curricular Unit Projeto III of the course Informatics Engineering at the School of Technology and Management (ESTG-IPVC). This project was realized by me and my colleague José Cruz. 
+This was a project of the Curricular Unit Projeto III of the course Informatics Engineering at the School of Technology and Management (ESTG-IPVC). This project was carried out by me and my colleague [José Cruz](https://www.linkedin.com/in/jos%C3%A9-cruz-98a8a32b8/).
+
+<small><strong><em>Note: As this project was developed under a Non-Disclosure Agreement (NDA), only partial aspects of the project are presented here.</em><small><strong>
 
 ---
 ##  Project Overview
