@@ -18,7 +18,7 @@ const AboutSection: React.FC = () => {
               About Me
             </h2>
           <p className="max-w-2xl mx-auto text-slate-700 dark:text-slate-300">
-          Hi, I’m Gonçalo Sousa, but online you might know me as NxT1me. I’m currently studying Computer Engineering at the School of Technology and Management (ESTG), Polytechnic Institute of Viana do Castelo.      </p>
+          Hi, I’m Gonçalo Sousa, but online you might know me as NxT1me. I have a degree in Computer Engineering from the School of Technology and Management (ESTG), Polytechnic Institute of Viana do Castelo.     </p>
           </div>
         </div>
 
